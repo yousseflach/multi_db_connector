@@ -1,6 +1,6 @@
-package ma.lachgar.multi_db_connector.DB1.repository;
+package ma.lachgar.multi_db_connector.db1.repository;
 
-import ma.lachgar.multi_db_connector.DB1.entity.Account;
+import ma.lachgar.multi_db_connector.db1.entity.Account;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

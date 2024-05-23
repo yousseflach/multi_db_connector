@@ -1,4 +1,4 @@
-package ma.lachgar.multi_db_connector.DB1.entity;
+package ma.lachgar.multi_db_connector.db1.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
