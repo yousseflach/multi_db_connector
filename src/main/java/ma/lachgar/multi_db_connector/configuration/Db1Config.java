@@ -21,7 +21,6 @@ import javax.sql.DataSource;
 @EnableJpaRepositories(
         entityManagerFactoryRef = "db1EntityManagerFactory",
         transactionManagerRef = "db1TransactionManager",
-//        com/example/demo/db1/repository
         basePackages = {"ma.lachgar.multi_db_connector.db1.repository"}
 )
 public class Db1Config {
