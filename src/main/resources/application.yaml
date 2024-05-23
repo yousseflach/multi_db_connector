@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: multi_db_connector
+  db1:
+    datasource:
+      jdbc-url: jdbc:mysql://localhost:3306/multi_db_connector_db1?createDatabaseIfNotExist=true&useSSL=false
+      username: root
+      password: ""
+      driver-class-name: com.mysql.cj.jdbc.Driver
+  db2:
+    datasource:
+      jdbc-url: jdbc:mysql://localhost:3306/multi_db_connector_db2?createDatabaseIfNotExist=true&useSSL=false
+      username: root
+      password: ""
+      driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        show_sql: true
+        format_sql: true
+        dialect: org.hibernate.dialect.MySQLDialect
